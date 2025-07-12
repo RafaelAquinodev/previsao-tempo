@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link:css + tab é um atalho -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="left-column">
+        <nav class="navbar-container">
+          <img src="./images/logo.svg" alt="Clima Hoje" />
+          <input
+            class="custom-input"
+            type="text"
+            name="city"
+            id="city"
+            placeholder="Procure por cidades"
+          />
+          <!-- input:text + tab é um atalho -->
+        </nav>
+
+        <div class="showcase-container">
+          <div class="showcase-text">
+            <h2>Rio de Janeiro</h2>
+            <p>Chance de chuva 0%</p>
+            <h2>28°</h2>
+          </div>
+          <img src="./images/sun-clouds.svg" alt="Sol com poucas nuvens" />
+        </div>
+
+        <div class="hourly-forecast-container">
+          <div class="hour-weather-item">
+            <p>6:00 AM</p>
+            <img src="./images/sun-cloud.svg" alt="" />
+            <p>24°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>9:00 AM</p>
+            <img src="./images/sun-cloud-two.svg" alt="" />
+            <p>28°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>12:00 PM</p>
+            <img src="./images/sun.svg" alt="" />
+            <p>30°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>3:00 PM</p>
+            <img src="./images/sun.svg" alt="" />
+            <p>32°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>6:00 PM</p>
+            <img src="./images/clouds.svg" alt="" />
+            <p>27°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>9:00 PM</p>
+            <img src="./images/moon-clouds.svg" alt="" />
+            <p>26°</p>
+          </div>
+        </div>
+
+        <div class="weather-details-container">
+          <div class="weather-detail-item">
+            <p>Sensação Térmica</p>
+            <div>
+              <img src="./images/temperatura.svg" alt="Sensação Térmica" />
+              <p>30º</p>
+            </div>
+          </div>
+
+          <div class="weather-detail-item">
+            <p>Chance de chuva</p>
+            <div>
+              <img src="./images/chance-chuva.svg" alt="Chance de chuva" />
+              <p>2%</p>
+            </div>
+          </div>
+
+          <div class="weather-detail-item">
+            <p>Vento</p>
+            <div>
+              <img src="./images/chance-vento.svg" alt="Vento" />
+              <p>2 <span>km/h</span></p>
+            </div>
+          </div>
+
+          <div class="weather-detail-item">
+            <p>Índice UV</p>
+            <div>
+              <img src="./images/chance-ensolarado.svg" alt="Índice UV" />
+              <p>4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <div class="weekly-forecast-container">
+          <div class="day-weather-item">
+            <p>Segunda</p>
+            <img src="./images/sun-cloud.svg" alt="Sol com nuvens" />
+            <div>
+              <p>29º</p>
+              <p>23º</p>
+            </div>
+          </div>
+          <div class="day-weather-item">
+            <p>Terça</p>
+            <img src="./images/sun-clouds.svg" alt="Sol com nuvens" />
+            <div>
+              <p>22º</p>
+              <p>20º</p>
+            </div>
+          </div>
+          <div class="day-weather-item">
+            <p>Quarta</p>
+            <img src="./images/sun-cloud-two.svg" alt="Sol com nuvens" />
+            <div>
+              <p>29º</p>
+              <p>23º</p>
+            </div>
+          </div>
+          <div class="day-weather-item">
+            <p>Quinta</p>
+            <img src="./images/sun.svg" alt="Sol com nuvens" />
+            <div>
+              <p>16º</p>
+              <p>19º</p>
+            </div>
+          </div>
+          <div class="day-weather-item">
+            <p>Sexta</p>
+            <img src="./images/sun-cloud.svg" alt="Sol com nuvens" />
+            <div>
+              <p>29º</p>
+              <p>23º</p>
+            </div>
+          </div>
+          <div class="day-weather-item">
+            <p>Sabado</p>
+            <img src="./images/sun-cloud.svg" alt="Sol com nuvens" />
+            <div>
+              <p>29º</p>
+              <p>23º</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
